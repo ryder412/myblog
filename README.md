@@ -2,7 +2,7 @@
 
 DevBlog is a fully customizable blog template designed for developers (or anyone else) wanting to get into blogging. It comes ready to go and deploy (with ease) or can be edited and extended however you like. The blog is completely statically generated via GatsbyJS, comes with syntax highlighting (via PrismJS) out of the box, and has server-side rendering built-in, among other things.
 
-To view a live demo, [click here](https://ryanfitzgerald.github.io/devblog/).
+To view a live demo, [click here](https://ryder412.github.io/myblog/).
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/RyanFitzgerald/devblog)
 
@@ -51,17 +51,13 @@ Basic configuration can be done via the ```config.js``` file in the root of the 
 ```javascript
 export default {
   title: 'Dev Blog', // Required
-  author: 'Ryan Fitzgerald', // Required
-  description: 'Full-stack Web Developer',
+  author: 'Gautam Thimmapuram', // Required
+  description: '2nd grader',
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
   showShareButtons: true,
   postsPerPage: 5, // Required
   social: {
-    website: 'https://ryanfitzgerald.ca',
-    github: 'https://github.com/ryanfitzgerald',
-    twitter: 'https://twitter.com/ryanafitzgerald',
-    linkedin: 'https://ca.linkedin.com/in/ryanafitzgerald'
   }
 };
 ```
@@ -131,12 +127,6 @@ Next, simply run ```npm run deploy``` and your blog will be deployed.
 
 Alternatively, if you wish to deploy it to ```https://YOURUSERNAME.github.io``` (i.e. your user / organization site and not a porject site), then a couple addition changes are required. The official Gatsby documentation has them outlined well [here](https://YOURUSERNAME.github.io).
 
-### Netlify
-
-One of the easiest methods of deploying the blog would be to use [Netlify](https://www.netlify.com/). To deploy to Netlify, simply click the button below and follow the prompts.
-
-<!-- Markdown snippet -->
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/RyanFitzgerald/devblog)
 
 ### Other
 
