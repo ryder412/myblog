@@ -8,6 +8,6 @@ module.exports = {
   postsPerPage: 5, // Required
   social: {
   },
-  pathPrefix: '/devblog',
-  siteUrl: 'https://ryanfitzgerald.github.io/devblog/',
+  pathPrefix: '/myblog',
+  siteUrl: 'https://ryder412.github.io/myblog/',
 };
